@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cor e imagem de fundo</title>
+    <style type="text/css">
+        /*.fundo{
+            background-color: aquamarine;
+        }*/
+
+        body{
+            background-image: url('../assets/img/2-CSS/yoshi.png');
+            /* repeat-x, repeat-y, no-repeat, repeat*/
+            background-repeat: no-repeat;
+            /*scrool, fixed*/
+            background-attachment: fixed;
+            /*primeiro valor: left, center, right; segundo valor: top, center, bottom*/
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="fundo">Conteúdo de título 1</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem eius error nobis possimus doloremque suscipit fuga odit magnam, repellat optio earum alias neque dolore omnis, quod voluptate, blanditiis aspernatur veritatis.</p>
+</body>
+</html>
