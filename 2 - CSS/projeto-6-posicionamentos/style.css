@@ -1,0 +1,46 @@
+body {
+    background: #007fc7;
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    background: #fff;
+    width: 800px;
+    margin: 10px auto;
+    padding: 10px;
+    position: relative;
+}
+
+h1 {
+    position: static;
+}
+
+p {
+    width: 300px;
+}
+
+.absolute {
+    /*Quando definimos com a posição absoluta, ela sai do fluxo normal do documento e não afeta a posição dos outros elementos da página, e eles agem como se ele não estivesse lá*/
+    background: #f2f2f2;
+    border: 1px solid blue;
+    position: absolute;
+    top: 80px;
+    right: 80px;
+}
+
+.relative {
+    border: 1px solid red;
+    position: relative;
+    /* top, right, bottom, left */
+    /*top: -20px;
+    left: 80px;*/
+}
+
+.fixed {
+    background: #f2f2f2;
+    border: 1px solid green;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
