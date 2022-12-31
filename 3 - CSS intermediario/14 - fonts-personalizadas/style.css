@@ -1,0 +1,21 @@
+/* Definir o  nome de uma fonte com mais de uma palavra é comendado o uso de apas */
+
+@font-face {
+    font-family: "Road Rage";
+    src: url(../../assets/fonts/RoadRage.woff);
+}
+
+@font-face {
+    font-family: Heart;
+    src: url(../../assets/fonts/BringHeart.woff);
+}
+
+h1 {
+    font-size: 6em;
+    font-family: "Road Rage";
+}
+
+h2 {
+    font-size: 5em;
+    font-family: Heart;
+}
