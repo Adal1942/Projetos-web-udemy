@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#caixa {
+    width: 300px;
+    height: 300px;
+    /*background: url(../../assets/img/4-Recursos_especiais/camera.png);*/
+    /*background: linear-gradient( 120deg ,#ccc, green);*/
+    /*background: radial-gradient(red, green, yellow);*/
+}
+
+#caixa h1 {
+    /*background: rgb(255, 255, 255);*/
+}
+
