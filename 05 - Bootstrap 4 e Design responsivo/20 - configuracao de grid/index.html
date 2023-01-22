@@ -8,10 +8,107 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../bootstrap4/css/bootstrap.min.css">
 
-    <title>Hello, world!</title>
+    <title>Configurações do grid</title>
+
+    <style>
+      .marcador {
+        background: #fe9d9d;
+        border: 1px solid #f94646;
+      }
+
+      .marcador-2 {
+        background: #9dfeee;
+        border: 1px solid #46f9e1;
+      }
+
+      .marcador-3 {
+        background: #d79dfe;
+        border: 1px solid #cf46f9;
+      }
+
+      .marcador-4 {
+        background: #feef9d;
+        border: 1px solid #f9e746;
+      }
+
+      .marcador-container {
+        background: #5bf946;
+        border: 1px solid #36ae26;
+      }
+    </style>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+
+    <div class="container marcador-container"><!-- container pode ser também container-fluid, que preenche toda a tela -->
+
+      <h2>Largura fixa</h2>
+      <div class="row">
+        <div class="marcador col">Área 1</div>
+        <div class="marcador col">Área 2</div>
+        <div class="marcador col">Área 3</div>
+        <div class="marcador col">Área 4</div>
+      </div>
+
+      <br><br>
+
+      <h2>Largura automática (auto-layout)</h2>
+      <div class="row">
+        <div class="marcador-2 col">Área 1</div>
+        <div class="marcador-2 col-4">Área 2</div>
+        <div class="marcador-2 col-6">Área 3</div>
+      </div>
+
+      <br><br>
+
+      <h2>Largura igual empilhada</h2>
+      <div class="row">
+        <div class="marcador-3 col-sm">Área 1</div>
+        <div class="marcador-3 col-sm">Área 2</div>
+        <div class="marcador-3 col-sm">Área 3</div>
+        <div class="marcador-3 col-sm">Área 4</div>
+      </div>
+
+      <br><br>
+
+      <h2>Ordenando</h2>
+      <div class="row">
+        <div class="marcador-4 col order-2">Área 1</div>
+        <div class="marcador-4 col order-3">Área 2</div>
+        <div class="marcador-4 col order-1">Área 3</div>
+        <div class="marcador-4 col order-4">Área 4</div>
+      </div>
+
+
+      <br><br>
+
+      <h2>offset</h2>
+      <div class="row">
+        <div class="marcador col-md-2 offset-md-5 text-center">Login...</div>
+      </div>
+
+      <br><br>
+
+      <h2>offset múltiplos alinhamentos</h2>
+      <div class="row">
+        <div class="marcador-2 col-md-3">Conteúdo 1</div>
+        <div class="marcador-2 col-md-3 offset-md-6">Conteúdo 2</div>
+      </div>
+
+      <br><br>
+
+      <h2>Aninhamento</h2>
+      <div class="row">
+        <div class="col-md-6" style="border: 1px solid purple;">
+          col-md-6
+          <div class="row">
+            <div class="col-md-6 marcador">Conteúdo 1</div>
+            <div class="col-md-6 marcador">Conteúdo 2</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
