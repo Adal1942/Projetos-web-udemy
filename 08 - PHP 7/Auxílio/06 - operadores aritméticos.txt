@@ -1,0 +1,12 @@
+Operadores aritméticos
+
+	O que são operadores aritméticos?
+	
+	Operadores:
+
+		adição (+) - Soma valores
+		Subtração (-) - Diferença entre valores
+		Multiplicação (*) - Produto dos valores
+		Divisão (/) - Quociente dos valores
+		Módulo (%) - Resto existente em uma operação de divisão
+		

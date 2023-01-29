@@ -1,0 +1,17 @@
+Funções nativas para manipular arrays
+
+is_array(array) -> Verifica se o parâmetro é um array
+
+array_keys(array) -> Retorna todas as chaves de um array
+
+sort(array) -> Ordena um array e reajusta seus índices
+
+asort(array) -> Ordena um array preservando os índices
+
+count(array) -> Conta a quantidade de elementos de um array
+
+array_merge(array) -> Funde um ou mais arrays
+
+explode(array) -> Divide uma string baseada em um delimitador
+
+implode(array) -> Junta elementos de um array em uma string

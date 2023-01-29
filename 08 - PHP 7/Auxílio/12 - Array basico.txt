@@ -1,0 +1,14 @@
+Array básico
+
+O que é um array? uma lista ordenada
+
+lista de frutas
+----------------- 		Com variáveis    		Com um único array
+|1|Banana	|      		$variavel_1 = 'Banana';		$lista_frutas[1] = 'Banana';
+|2|Maçã		|		$variavel_2 = 'Maçã';		$lista_frutas[2] = 'Maçã';
+|3|Morango	|		$variavel_3 = 'Morango';	$lista_frutas[3] = 'Morango';
+|4|Uva		|  		$variavel_4 = 'Uva';		$lista_frutas[4] = 'Uva';
+-----------------
+								      ^
+	|							      |	
+	 -------------------------------------------------------------	

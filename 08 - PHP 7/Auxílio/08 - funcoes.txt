@@ -1,0 +1,15 @@
+Funções - introdução
+
+	Encapsular um bloco de códigos com um objetivo definido
+	
+	function exibirBoasVindas() {
+		echo "Bem-vindo ao curso de PHP";
+	}
+
+
+	function calcularAreaTerreno($largura, $comprimento) {
+		
+		$area = $largura * $comprimento;
+
+		return $area;
+	}

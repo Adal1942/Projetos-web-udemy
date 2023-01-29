@@ -1,0 +1,10 @@
+Operadores de incremento/decremento 
+
+	O que são operadores incremento e decremento?
+
+	Operadores:
+
+		Pré-incremento (++$a) - Adiciona uma unidade antes de retornar $a
+		Pós-incremento ($a++) - Retorna $a e depois adiciona uma unidade
+		Pré-decremento (--$a) - Diminui uma unidade antes de retornar $a
+		Pós-decremento ($a--) - Retorna $a e depois diminui uma unidade 

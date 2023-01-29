@@ -1,0 +1,10 @@
+Operadores Lógicos
+
+Servem para conectar operações de comparação criando condições mais complexas de decisão.
+
+Operadores:
+
+	operador E (AND ou &&) - Verdadeiro se todas as expressões forem verdadeiras.
+	operador OU (OR ou ||) - Verdade se pelo menos uma das expressões for verdadeira.
+	operador Xor (XOR) - Verdadeiro apenas se uma das expressões forem verdadeiras, mas não ambas.
+	operador Negação (!) - Inverte o resultado da expressão 

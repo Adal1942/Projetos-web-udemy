@@ -1,0 +1,13 @@
+Funções nativas para manipular strings
+
+	strtolower($texto) -> Transforma todos os caracteres do string em minúsculos
+
+	strtoupper($texto) -> Transforma todos os caracteres do string em maiúsculos
+
+	ucfirst($texto) -> Transforma o primeiro caracter da string em maiúsculo
+
+	strlen($texto) -> Conta a quantidade de caracteres de uma string
+
+	str_replace(<procura por>, <substitui por>, $texto) -> Substitui uma cadeia de caracteres por outra dentro de uma string.
+	
+	substr($texto, <posicao inicial>,<qtde caracteres>) -> Retorna parte de uma string.

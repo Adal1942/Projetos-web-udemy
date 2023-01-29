@@ -1,0 +1,20 @@
+Casting de tipos com (int), (bool), (float) e (string)
+
+		-> float
+	int
+		-> string
+
+
+		-> int
+	float
+		-> string
+
+
+		-> int
+	string	-> float
+		-> boolean
+
+
+		-> int
+	boolean
+		-> string

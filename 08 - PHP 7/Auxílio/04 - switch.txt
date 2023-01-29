@@ -1,0 +1,20 @@
+Switch
+
+  O que é comando switch?
+	
+	$opcao = 2
+
+	switch (opção) {
+		
+		case 1:
+		   //trecho de código que será executado
+	 	     break;
+			
+		case 2:
+		   //trecho de código que será executado
+		     break;
+
+		default:
+		   //trecho de código que será executado
+		     break;
+	}

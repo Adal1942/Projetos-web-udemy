@@ -1,0 +1,22 @@
+Array multidimensional
+O que é um array multidimensional?
+
+						     |-------------|		
+						     |1|Banana	   |
+						     |2|Maçã       |
+						     |3|Morango    |
+						     |4|Uva        |
+					      |----> | |           |
+Lista de frutas        Lista de coisas        |      |-------------|
+|-------------|        |------------------|   |
+|1|Banana     |	       |frutas	| array() |---|
+|2|Maçã       |	       |pessoas | array() |--|
+|3|Morango    |        |	|	  |  |
+|4|Uva        |        |	|	  |  |
+| |           |        |	|	  |  |
+|-------------|        |------------------|  |---->|-----------|
+						   |1|João     |
+						   |2|José     |
+						   |3|Maria    |
+						   | |         |
+						   |-----------|
